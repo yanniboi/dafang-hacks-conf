@@ -1,0 +1,939 @@
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+Created cron directories and standard interval jobs
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x8f0218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x8f0218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x8f0218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x8f0218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x8f0218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x8f0218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x8f0218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+Created new certificate for webserver
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0xc05218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc05218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc05218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc05218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc05218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc05218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc05218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x833218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x833218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x833218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x833218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x833218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x833218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x833218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x7ad218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7ad218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7ad218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7ad218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7ad218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7ad218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x7ad218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x999218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x999218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x999218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x999218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x999218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x999218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x999218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0xc1f218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc1f218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc1f218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc1f218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc1f218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc1f218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc1f218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x765218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x765218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x765218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x765218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x765218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x765218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x765218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0xb4c218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xb4c218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xb4c218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xb4c218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xb4c218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xb4c218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xb4c218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x76b218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x76b218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x76b218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x76b218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x76b218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x76b218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x76b218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+Creating 256MB swap file on SD card
+Swap file created in /system/sdcard/swapfile
+Configuring swap file
+Swap set on file /system/sdcard/swapfile
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0xc9c218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc9c218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc9c218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc9c218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc9c218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc9c218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc9c218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+Configuring swap file
+Swap set on file /system/sdcard/swapfile
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0xc87218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc87218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc87218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc87218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc87218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc87218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0xc87218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
+udhcpc: deleting routers
+adding dns 192.168.5.1
+Initialized gpios
+Determined image sensor model as 
+dropbear: 
+lighttpd: 
+Startup finished!
+==================================================
+Starting the Dafang Hacks Custom Application Layer
+==================================================
+Loaded common functions
+Created etc directory on sdcard
+Bind mounted /system/sdcard/bin/busybox to /bin/busybox
+Bind mounted /system/sdcard/root to /root
+Bind mounted /system/sdcard/etc to /etc
+Configuring swap file
+Swap set on file /system/sdcard/swapfile
+wpa_supplicant: wpa_supplicant v2.5.nova.1.02
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlan0' conf '/system/sdcard/config/wpa_supplicant.conf' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/system/sdcard/config/wpa_supplicant.conf' -> '/system/sdcard/config/wpa_supplicant.conf'
+Reading configuration file '/system/sdcard/config/wpa_supplicant.conf'
+ctrl_interface='/var/run/wpa_supplicant'
+ctrl_interface_group='0'
+ap_scan=1
+Priority group 2
+   id=0 ssid='TNCAP9B6F13'
+nl80211: Could not add multicast membership for vendor events: -2 (No such file or directory)
+rfkill: Cannot open RFKILL control device
+nl80211: RFKILL status not available
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Disable use_monitor with device_ap_sme since no monitor mode support detected
+nl80211: interface wlan0 in phy phy0
+nl80211: Set mode ifindex 2 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x668218
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x668218 match=06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x668218 match=0a07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x668218 match=0a11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x668218 match=1101
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x668218 match=1102
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x668218 match=0505
+netlink: Operstate: ifindex=2 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+nl80211: Could not re-add multicast membership for vendor events: -2 (No such file or directory)
+nl80211: driver param='(null)'
+Add interface wlan0 to a new radio phy0
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 40 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+wlan0: Own MAC address: 78:11:dc:78:75:04
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlan0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlan0: Setting scan request: 0.100000 sec
+ENGINE: Loading dynamic engine
+ENGINE: Loading dynamic engine
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+ctrl_interface_group=0
+wlan0: Added interface wlan0
+wlan0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlan0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+Writing wpa stat file /tmp/wpastat
+Daemonize..
