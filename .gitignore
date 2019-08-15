@@ -10,7 +10,7 @@ bin
 #lib
 #log
 media
-#root
+root/.ssh
 #run.sh
 #scripts
 swapfile
